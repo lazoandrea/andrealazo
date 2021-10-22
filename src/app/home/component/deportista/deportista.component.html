@@ -1,1 +1,12 @@
-<p>deportista works!</p>
+
+ <div  *ngFor="let depor of deportista">
+      
+        <div>
+            <b>Nombre:</b> {{depor.nombre}}<br>
+            <b>Equipo: </b> {{depor.equipo}} <br>
+            <b>Fecha de nacimiento: </b> {{depor.nacimiento}} <br>
+            <b>Seleccion: </b> {{depor.seleccion}} <br>
+            <b>Biografia: </b> {{depor.bio}} <br>
+        </div>
+
+    </div>
