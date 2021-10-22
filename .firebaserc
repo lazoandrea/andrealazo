@@ -1,0 +1,21 @@
+{
+  "targets": {
+    "interno-lumen-analitica": {
+      "hosting": {
+        "jugadores": [
+          "interno-lumen-analitica"
+        ]
+      }
+    },
+    "jugador-8d0a4": {
+      "hosting": {
+        "jugadores": [
+          "jugador-8d0a4"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "jugador-8d0a4"
+  }
+}
